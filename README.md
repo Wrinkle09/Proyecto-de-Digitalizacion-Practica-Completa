@@ -22,7 +22,14 @@ El objetivo es demostrar capacidad para trabajar con datos, automatizar procesos
 
 ## 1. Generación de Datos con PowerShell
 
-Se generaron 20 registros ficticios de incidencias y productividad con el siguiente script (script.datos.ps1):
+En un entorno real, muchas empresas no tienen datos limpios o necesitan generar datos de prueba para validar procesos.
+Por eso creé un script en PowerShell que genera un CSV con incidencias, tiempos medios y departamentos.
+
+¿Qué demuestra este punto?
+- Capacidad para automatizar tareas
+- Conocimiento de PowerShell
+- Creación de datos reproducibles
+- Comprensión de estructuras CSV
 
 📄 **Script completo:**  
 [`generar_datos.ps1`](generar_datos.ps1)
@@ -31,7 +38,13 @@ Se generaron 20 registros ficticios de incidencias y productividad con el siguie
 ![CSV generado](CSV.PNG)
 
 ## 2. Limpieza y Análisis en Google Sheets
-
+Una vez generado el CSV, lo importé en Google Sheets para simular el trabajo típico de un técnico que recibe datos sin procesar.
+Aquí realicé:
+- Limpieza de columnas
+- Normalización de fechas
+- Cálculos básicos y avanzados
+- Preparación de rangos para gráficos
+  
 **Importación del CSV**  
 Se cargó el archivo generado desde PowerShell.  
 
@@ -56,7 +69,12 @@ Se cargó el archivo generado desde PowerShell.
 
 ## 3. Automatización con Google Apps Script
 
-Para automatizar la detección de tiempos críticos se creó un script en Google Apps Script (JavaScript).
+Para evitar tareas manuales repetitivas, añadí un script que detecta automáticamente valores críticos (tiempos > 40 min) y los resalta.
+Esto simula automatizaciones reales como:
+- Alertas
+- Validaciones
+- Formatos automáticos
+- Procesos programados
 
 📄 **Script completo:**  
 [`apps_script.js`](apps_script.js)
@@ -65,7 +83,12 @@ Para automatizar la detección de tiempos críticos se creó un script en Google
 ![Apps Script](app_script.PNG)
 
 ## 4. Dashboard en Google Sheets
-
+Finalmente, construí un dashboard visual que permite:
+- Filtrar por departamento
+- Ver tendencias de tiempos medios
+- Analizar carga de incidencias
+- Detectar picos o problemas
+  
 **Gráfico de barras:**  
 - Eje X → Departamento  
 - Eje Y → Incidencias  
@@ -82,18 +105,13 @@ Control de filtro por departamento que afecta a todos los gráficos.
 
 ---
 
-## 5. Resultado final
+## 5. Conclusiones del proyecto
 
-Dashboard interactivo que permite:
-- Filtrar por departamento  
-- Analizar tendencias de tiempo medio  
-- Visualizar carga de incidencias  
-- Detectar valores críticos automáticamente  
-
-Ideal como práctica de:
-- Digitalización  
-- Automatización  
-- Análisis de datos  
-- Visualización  
-- Documentación técnica  
+Este proyecto demuestra un flujo completo de digitalización aplicado a un entorno real: desde la generación de datos hasta su análisis y automatización.  
+El resultado es un sistema sencillo pero funcional que permite:
+- Generar datos de forma reproducible  
+- Detectar incidencias críticas automáticamente  
+- Visualizar información clave en un dashboard  
+- Reducir tareas manuales mediante automatización  
+El objetivo principal se cumple
 
