@@ -56,7 +56,10 @@ Se cargó el archivo generado desde PowerShell.
 
 ## 3. Automatización con Google Apps Script
 
-Script para resaltar automáticamente filas con tiempos medios mayores a 40 minutos:
+Para automatizar la detección de tiempos críticos se creó un script en Google Apps Script (JavaScript).
+
+📄 **Script completo:**  
+[`apps_script.js`](apps_script.js)
 
 ### 📸 Vista del Apps Script
 ![Apps Script](app_script.PNG)
