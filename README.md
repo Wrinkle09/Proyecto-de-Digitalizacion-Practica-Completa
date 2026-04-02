@@ -27,11 +27,8 @@ Se generaron 20 registros ficticios de incidencias y productividad con el siguie
 📄 **Script completo:**  
 [`generar_datos.ps1`](generar_datos.ps1)
 
-```
-
 ### 📸 Vista previa del CSV generado
 ![CSV generado](CSV.PNG)
----
 
 ## 2. Limpieza y Análisis en Google Sheets
 
