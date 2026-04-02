@@ -49,7 +49,7 @@ $registros | Export-Csv -Path "./datos_incidencias.csv" -NoTypeInformation -Enco
 ```
 
 **Salida:** `datos_incidencias.csv`
-![Vista previa del CSV](csv.png)
+![Vista previa del CSV](CSV.PNG)
 
 ---
 
