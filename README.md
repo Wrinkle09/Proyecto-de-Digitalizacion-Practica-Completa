@@ -3,7 +3,9 @@ Generación de datos · Limpieza · Automatización · Dashboard
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=csv&logoColor=white)
+
 
 Este proyecto es una práctica completa de digitalización y automatización orientada a un puesto de Técnico Junior de Digitalización.
 Simulo el flujo completo que podría hacerse en una empresa: generación de datos, limpieza, automatización con App Script y manipulación con PowerShell.
