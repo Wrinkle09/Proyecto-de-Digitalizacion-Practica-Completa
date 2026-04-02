@@ -61,38 +61,21 @@ Script para resaltar automáticamente filas con tiempos medios mayores a 40 minu
 ### 📸 Vista del Apps Script
 ![Apps Script](apps_script.PNG)
 
-```javascript
-function revisarTiempos() {
-  const hoja = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  const lastRow = hoja.getLastRow();
-  const datos = hoja.getRange(2,1,lastRow-1,5).getValues();
-
-  for (let i = 0; i < datos.length; i++) {
-    const tiempo = datos[i];
-    
-    if (tiempo > 40) {
-      hoja.getRange(i+2, 1, 1, 5).setBackground("#ff9999");
-    }
-  }
-}
-```
-
-(Opcional: agregar envío de email de alerta con `MailApp.sendEmail()`)
-
----
-
 ## 4. Dashboard en Google Sheets
 
 **Gráfico de barras:**  
 - Eje X → Departamento  
 - Eje Y → Incidencias  
+![gráfico_genenerado](grafico1.PNG)
 
 **Gráfico de líneas:**  
 - Eje X → Fecha  
 - Serie → TiempoMedioMin  
+![gráfico generado](grafico2.PNG)
 
 **Segmentador dinámico:**  
 Control de filtro por departamento que afecta a todos los gráficos.
+![segmentador generado](segmentador.PNG)
 
 ---
 
