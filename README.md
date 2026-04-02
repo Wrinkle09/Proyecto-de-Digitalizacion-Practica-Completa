@@ -44,6 +44,7 @@ Se cargó el archivo generado desde PowerShell.
 - Formato de fecha ISO  
 
 **Cálculos utilizados en Google Sheets**
+
 [`excel_calculos.md`](excel_calculos.md)
 
 **Preparación para Dashboard**
