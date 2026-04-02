@@ -58,6 +58,9 @@ $registros | Export-Csv -Path "./datos_incidencias.csv" -NoTypeInformation -Enco
 **Importación del CSV**  
 Se cargó el archivo generado desde PowerShell.  
 
+### 📸 Vista de los datos importados en Google Sheets
+![Datos en Sheets](google_sheets.png)
+
 **Ordenación y estructura**
 - Orden por fecha  
 - Normalización de columnas  
