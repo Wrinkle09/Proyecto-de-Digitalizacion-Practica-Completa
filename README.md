@@ -43,11 +43,8 @@ Se cargó el archivo generado desde PowerShell.
 - Normalización de columnas  
 - Formato de fecha ISO  
 
-**Cálculos clave**
-```excel
-=SUM(C2:C)
-=AVERAGE(FILTER(D2:D; B2:B="IT"))
-```
+**Cálculos utilizados en Google Sheets**
+[`excel_calculos.md`](excel_calculos.md)
 
 **Preparación para Dashboard**
 - Filtros automáticos  
