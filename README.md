@@ -12,12 +12,17 @@ Este repositorio documenta una práctica completa que simula el trabajo real de 
 ---
 
 ## Estructura del repositorio
-
----
+```
+proyecto-digitalizacion-junior/
+├── datos_incidencias.csv
+├── script_datos.ps1
+├── apps_script.js
+└── README.md  
+```
 
 ## 1. Generación de Datos con PowerShell
 
-Se generaron 20 registros ficticios de incidencias y productividad con el siguiente script:
+Se generaron 20 registros ficticios de incidencias y productividad con el siguiente script (script.datos.ps1):
 
 ```powershell
 $departamentos = "IT","Calidad","Operaciones","RRHH"
