@@ -30,8 +30,7 @@ Se generaron 20 registros ficticios de incidencias y productividad con el siguie
 ```
 
 ### 📸 Vista previa del CSV generado
-![Vista previa del CSV](CSV.PNG)
-
+![CSV generado](CSV.PNG)
 ---
 
 ## 2. Limpieza y Análisis en Google Sheets
