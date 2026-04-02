@@ -59,7 +59,7 @@ Se cargó el archivo generado desde PowerShell.
 Script para resaltar automáticamente filas con tiempos medios mayores a 40 minutos:
 
 ### 📸 Vista del Apps Script
-![Apps Script](apps_script.PNG)
+![Apps Script](app_script.PNG)
 
 ## 4. Dashboard en Google Sheets
 
