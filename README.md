@@ -20,15 +20,6 @@ El objetivo es demostrar capacidad para trabajar con datos, automatizar procesos
 
 ---
 
-## Estructura del repositorio
-```
-proyecto-digitalizacion-junior/
-├── datos_incidencias.csv
-├── script_datos.ps1
-├── apps_script.js
-└── README.md  
-```
-
 ## 1. Generación de Datos con PowerShell
 
 Se generaron 20 registros ficticios de incidencias y productividad con el siguiente script (script.datos.ps1):
