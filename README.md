@@ -24,6 +24,8 @@ El objetivo es demostrar capacidad para trabajar con datos, automatizar procesos
 
 Se generaron 20 registros ficticios de incidencias y productividad con el siguiente script (script.datos.ps1):
 
+📄 **Script completo:**  
+[`script_datos.ps1`](generar_datos.ps1)
 ```powershell
 $departamentos = "IT","Calidad","Operaciones","RRHH"
 $tecnicos = "Daniel","Lucia","Carlos","Marina","Jorge"
@@ -82,6 +84,9 @@ Se cargó el archivo generado desde PowerShell.
 ## 3. Automatización con Google Apps Script
 
 Script para resaltar automáticamente filas con tiempos medios mayores a 40 minutos:
+
+### 📸 Vista del Apps Script
+![Apps Script](apps_script.PNG)
 
 ```javascript
 function revisarTiempos() {
